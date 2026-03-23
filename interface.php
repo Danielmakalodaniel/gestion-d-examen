@@ -1126,6 +1126,7 @@ if (isset($_POST["dif"])) {
             <button id="close" type="button">Annuler</button>
         </form>
     </div>
+    
 </body>
 <script src="interface.js"></script>
 </html>
