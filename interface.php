@@ -1124,7 +1124,35 @@ if (isset($_POST["dif"])) {
             <button id="close" type="button">Annuler</button>
         </form>
     </div>
-    
+    <div class="modifier">
+        <p>Filiere</p>
+        <form action="interface.php">
+            <label for="">
+                <input type="text" value="">
+            </label>
+            <label for="">
+                <select name="" id="" >
+                    <option value="">Choisir le niveau de la filiere</option>
+                    <option value="Licence 1">Licence 1</option>
+                    <option value="Licence 2">Licence 2</option>
+                    <option value="Licence 3">Licence 3</option>
+                    <option value="Master 1">Master 1</option>
+                    <option value="Master 2">Master 2</option>
+                    <option value="Classe preparatoire">Classe preparatoire</option>
+                </select>
+            </label>
+            <label for="">
+                <select name="" id="">
+                    <option value="">moi</option>
+                </select>
+            </label>
+            <label for="">
+                <select name="" id="">
+                    <option value="">moi1</option>
+                </select>
+            </label>
+        </form>
+    </div>
 </body>
 <script src="interface.js"></script>
 </html>
